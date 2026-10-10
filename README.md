@@ -1,5 +1,7 @@
 # Compaction as Continuation, Not Restoration
 
+[中文说明](README.zh.md)
+
 > What we changed in a real, continuously used agent deployment after measuring what compaction actually drops — and the design that followed it: **facts leave the summary, the original stays addressable, and unresolved tension is what the summary is for.**
 
 Long-horizon agents survive their context window by *compacting*: a model summarizes the older part of a conversation, the summary replaces what it shadowed, and work continues. Almost all discussion of this step is about **fidelity** — did the summary keep enough? In our measurement work we found the more useful question is **continuity**: after the fold, can the next turn still tell what is unsettled, what was tried and rejected, and where the exact values live?
