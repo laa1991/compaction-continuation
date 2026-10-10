@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this design record, cite it as below."
+title: "Compaction as Continuation, Not Restoration: a design record"
+abstract: "The design behind replacing summary-as-lossy-copy with summary-as-navigation plus tension, and pointers to a lossless original, in a continuously used single-machine agent deployment."
+authors:
+  - family-names: Long
+    given-names: Anan
+year: 2026
+month: oct
+type: report
+version: 1.0.0
+repository-code: "https://github.com/laa1991/compaction-continuation"
+keywords:
+  - context compaction
+  - agent memory
+  - long-horizon agents
+  - context engineering
